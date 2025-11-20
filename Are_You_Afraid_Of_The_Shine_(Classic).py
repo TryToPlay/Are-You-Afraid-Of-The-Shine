@@ -10,6 +10,7 @@ import sys
 import random
 
 pygame.init()
+pygame.mixer.init()
 width = 1000
 height = 500
 window = pygame.display.set_mode((width, height))

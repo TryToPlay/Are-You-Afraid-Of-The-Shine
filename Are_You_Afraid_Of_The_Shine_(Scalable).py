@@ -10,6 +10,7 @@ import sys
 import random
 
 pygame.init()
+pygame.mixer.init()
 WIDTH = 800
 HEIGHT = 450
 window = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
